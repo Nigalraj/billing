@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+      <link rel="stylesheet" href="/Asset/css/stylesheet.css">
+      <title>Bootstrap Example</title>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+   </head>
+   <body class="d-flex flex-column vh-100 my-0">
+      <div class="body d-xxl-flex  flex-column vh-100 ">
+         <div class="bg-first ">
+            <div class="container-lg">
+               <div class="pt-lg-4 d-flex pt-4 ps-2 ps-lg-0 justify-content-between">
+                  <div>
+                     <img src="/Asset/images/logopo.svg" alt="" width="200">
+                  </div>
+                  <div>
+                     <iconify-icon icon="uil:bars" style="color: white;" class="btn d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" width="30" height="30"></iconify-icon>
+                  </div>
+                  <div class="d-none d-lg-block">
+                     <div class="text-white d-flex f1_size">
+                        <div class="me-4">Change Cover</div>
+                        <div class="vr mt-lg-1 me-4"></div>
+                        <div class="d-flex">
+                           <div>
+                              <iconify-icon class="mt-1" icon="mdi:calendar-check-outline" style="color: white;"></iconify-icon>
+                           </div>
+                           <div class="ps-1">Calender</div>
+                           <div class="vr mt-lg-1 ms-lg-4 me-lg-4"></div>
+                        </div>
+                        <div class="d-flex">
+                           <div>
+                              <iconify-icon icon="mi:notification" class="mt-lg-1 me-lg-1" style="color: white;"></iconify-icon>
+                           </div>
+                           <div class="me-lg-4">Notifications</div>
+                        </div>
+                        <div class="d-flex">
+                           <div><img src="/Asset/images/andrew.jpeg" width="30" height="28" class="profile"></div>
+                           <div class="fw-bold fs-6 ms-lg-3">Hi, Andrew</div>
+                           <div class="dropdown ">
+                              <iconify-icon icon="bxs:up-arrow" style="color: white;" flip="vertical" class=" ms-2 mt-2" data-bs-toggle="dropdown" aria-expanded="false" ></iconify-icon>
+                              <ul class="mt-3 dropdown-menu ps-lg-2 pe-lg-2 bg_dropdown_1">
+                                <li class="dropdown_1 mt-lg-2"><div class="dropdown-item bg-white d-flex"><iconify-icon icon="gridicons:add" style="color: red; " width="15px" class="pe-1 "></iconify-icon>Add Child Profile</div></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Manage Profile</a><hr class="my-0"></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Changes password</a><hr class="my-0"></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Payment preferences</a><hr class="my-0"></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Transaction history</a><hr class="my-0"></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Privacy & parental controls</a><hr class="my-0"></li>
+                                <li class="mt-lg-1 mb-lg-1"><a class="dropdown-item dropdown mb-lg-1 fw-semibold" href="#">Notification preferences</a><hr class="my-0"></li>
+                                <li><a class="dropdown-item dropdown fw-semibold" href="#">App settings</a></li>
+                              </ul>
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <div class="text-white d-none d-lg-flex head justify-content-center fw-semibold pt-lg-5">
+                     Book Venues, Coaches & Academies Nearby
+                  </div>
+                  <div class="d-flex flex-row d-none d-lg-flex justify-content-center">
+                     <hr class="line" class="" width="550">
+                  </div>
+                  <div class="text-white ">
+                     <div class="d-lg-flex d-none  flew-row justify-content-center">
+                        <div class="me-4">
+                           <span class="under py-2">Sports Centers</span>
+                        </div>
+                        <div class="ms-4 me-5 ">
+                           <span  class="under py-2">Playmates</span>
+                        </div>
+                        <div class="ms-4">
+                           <span  class="under py-2">Lessons</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-8 d-lg-flex  bg-white mx-auto mt-4 d-none">
+                        <div class="size  d-flex align-items-center be justify-content-between">
+                           <div class="d-flex p-1">
+                              <iconify-icon icon="ion:location-sharp" style="color: gray;" width="20"></iconify-icon>
+                              <div class="" style="color: gray;">Location</div>
+                           </div>
+                           <div class="p-2 ">
+                              <iconify-icon icon="icomoon-free:target" style="color: rgb(58, 128, 203); "></iconify-icon>
+                           </div>
+                        </div>
+                        <div class="size d-flex be justify-content-between">
+                           <div class="d-flex align-items-center p-1">
+                              <iconify-icon icon="fa6-solid:medal" style="color: gray;"></iconify-icon>
+                              <div style="color: gray;" class="p-1">Sport</div>
+                           </div>
+                           <div class="p-1 pt-2">
+                              <iconify-icon icon="fe:arrow-up" style="color: gray;" flip="horizontal,vertical"></iconify-icon>
+                           </div>
+                        </div>
+                        <div class="size d-flex align-items-center be p-1">
+                           <iconify-icon icon="majesticons:calendar" style="color: gray;"></iconify-icon>
+                           <div style="color: gray;" class="p-1">Date</div>
+                        </div>
+                        <div class="size d-flex  justify-content-between">
+                           <div class="d-flex align-items-center p-1">
+                              <iconify-icon icon="tabler:clock" style="color: gray;"></iconify-icon>
+                              <div style="color: gray;" class="p-1 pe-lg-5">Time</div>
+                           </div>
+                           <div class="bg-danger p-2 d-lg-flex ">
+                              <iconify-icon icon="ri:search-line" style="color: rgb(234, 228, 228);" width="23" height="19"></iconify-icon>
+                              <span class="text-white pe-2 ps-1">Search</span>
+                           </div>
+                        </div>
+                  </div>
+                  <!-- <div class="d-lg-flex flex-row d-none justify-content-center mt-lg-2">
+                     <div class="bg-white d-inline-flex">
+                        <div class="ps-lg-2 pt-lg-2 pe-lg-1">
+                           <iconify-icon icon="ion:location-sharp" style="color: gray;" width="20"></iconify-icon>
+                        </div>
+                        <div class="pe-lg-5 pt-lg-1">
+                           Location
+                        </div>
+                        <div class="p-lg-1 border-end ms-lg-5 pe-lg-2 pt-lg-2">
+                           <iconify-icon icon="icomoon-free:target" style="color: rgb(58, 128, 203);"></iconify-icon>
+                        </div>
+                        <div class="ps-lg-1 pe-lg-2 pt-lg-2">
+                           <iconify-icon icon="fa6-solid:medal" style="color: gray;"></iconify-icon>
+                        </div>
+                        <div class="pe-lg-5 pt-lg-1">
+                           Sport
+                        </div>
+                        <div class="pt-lg-2 border-end ms-lg-5 pe-lg-2">
+                           <iconify-icon icon="fe:arrow-up" style="color: gray;" flip="horizontal,vertical"></iconify-icon>
+                        </div>
+                        <div class="ps-lg-2  mt-1 adj">
+                           <iconify-icon icon="majesticons:calendar" style="color: gray;"></iconify-icon>
+                        </div>
+                        <p class="pe-lg-5 me-lg-4 ps-lg-1 pt-lg-1">
+                           Date
+                        </p>
+                        <div class="ps-lg-2 pt-lg-2 border-start">
+                           <iconify-icon icon="tabler:clock" style="color: gray;"></iconify-icon>
+                        </div>
+                        <div class="pe-lg-5 ps-lg-1 me-lg-3 pt-lg-1 adj">
+                           Time
+                        </div>
+                        <div class="bg-danger p-2">
+                           <iconify-icon icon="ri:search-line" style="color: rgb(234, 228, 228);" width="23" height="19"></iconify-icon>
+                        </div>
+                     </div>
+                  </div> -->
+               </div>
+            </div>
+            <div>
+               <div class="offcanvas offcanvas-start bg-dark pt-3 d-lg-none" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" >
+                  <div class="offcanvas-header">
+                     <img src="/Asset/images/logopo.svg" alt="" width="200">
+                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body ">
+                     <div class="">
+                        <div class="my-1 ps-3 pt-1 pb-1  text-white">
+                           <div class="my-1">Change Cover</div>
+                        </div>
+                        <div class="my-1 ps-3 pt-1 pb-1 text-white d-flex ">
+                           <iconify-icon icon="material-symbols:calendar-today" style="color: gray; " class="pt-2 pe-2"></iconify-icon>
+                           <div class=" my-1">Calendar</div>
+                        </div>
+                        <div class="my-1">
+                           <div class="  ps-3 pt-1 pb-1 text-white d-flex">
+                              <iconify-icon icon="nimbus:notification" style="color: gray;" class="pt-2 pe-2"></iconify-icon>
+                              <div class="my-1">Notifications</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="d-flex">
+                     <img src="/Asset/images/andrew.jpeg" width="30" height="28" class="profile mt-3 ms-4 dropdown-toggle ms-2 mt-1" data-bs-toggle="dropdown" aria-expanded="false">
+                     <div>
+                        <div class="text-white p-3">Hi, Andrew
+                        </div>
+                        <div class="dropdown">
+                           <ul class="dropdown-menu ps-3 pe-3 bg_dropdown_1">
+                             <li class="dropdown_1 mt-lg-2"><div class="dropdown-item bg-white"><iconify-icon icon="gridicons:add" style="color: red; " class="pe-1"></iconify-icon>Add Child Profile</div></li>
+                             <li><a class="dropdown-item dropdown " href="#">Manage Profile</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">Changes password</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">Payment preferences</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">Transaction history</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">Privacy & parental controls</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">Notification preferences</a><hr class="my-0"></li>
+                             <li><a class="dropdown-item dropdown" href="#">App settings</a></li>
+                           </ul>
+                         </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="d-lg-none text-white">
+               <div class=" fw-semibold fs-5  ms-5 mt-5 d-md-none">Book Venues, Coaches & <span class="ps-4">Academies Nearby</span></div>
+               <div class="text-center d-none d-lg-none d-md-block fw-semibold mt-md-5">Book Venues, Coaches & Academies Nearby</div>
+               <hr class="ms-4 me-4 line border-0">
+               <div class="d-flex justify-content-evenly">
+                  <div class="">
+                     <div>Sports Centers</div>
+                     <div>
+                        <hr class="line1 border-0 opacity-100 my-2">
+                     </div>
+                  </div>
+                  <div class="">Playmates</div>
+                  <div class="">Lessons</div>
+               </div>
+            </div>
+            <div class="d-lg-none d-flex justify-content-center mt-4">
+               <div class="d-inline-flex bg-white ">
+                  <div class="p-2 border-end d-flex align-items-center">
+                     <iconify-icon icon="ion:location-sharp" style="color: gray;" width="20"></iconify-icon>
+                  </div>
+                  <div class="p-2 border-end d-flex align-items-center">
+                     <iconify-icon icon="fa6-solid:medal" style="color: gray;"></iconify-icon>
+                  </div>
+                  <div class="p-2 border-end d-flex align-items-center">
+                     <iconify-icon icon="majesticons:calendar" style="color: gray;"></iconify-icon>
+                  </div>
+                  <div class="p-2 d-flex align-items-center">
+                     <iconify-icon icon="tabler:clock" style="color: gray;"></iconify-icon>
+                  </div>
+                  <div class="p-2 bg-danger d-flex align-items-center">
+                     <iconify-icon icon="ri:search-line" style="color: rgb(234, 228, 228);" width="23" height="19"></iconify-icon>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bg-second pt-lg-4 bg-second_1 grow pb-lg-5 ">
+            <div class="container">
+               <div class="row d-flex move">
+                  <div class="col-lg-2 d-lg-block d-none d-md-block col-12 ">
+                     <div class="card mb-2 mt-lg-0 mt-2 border-0">
+                        <div class="col-12 d-flex justify-content-between mb-1 mt-1">
+                           <div class="my-1 d-flex">
+                              <iconify-icon icon="ic:sharp-home" class="ps-2" style="color: red;" width="25" height="25"></iconify-icon>
+                              <small class="pt-1 ps-1 text-danger">Home</small>
+                           </div>
+                           <div class="mt-2 me-3">
+                              <iconify-icon icon="ep:arrow-up" style="color: red;" width="17" height="17" rotate="90deg"></iconify-icon>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card mb-2 mt-2 border-0">
+                        <div class="col-12 d-flex justify-content-between mb-1 mt-1">
+                           <div class="my-1 d-flex home">
+                              <iconify-icon icon="mdi:account-supervisor-outline" class="ps-2" style="color: gray;" width="25" height="25"></iconify-icon>
+                              <small class="pt-1 ps-1 ">connection</small>
+                           </div>
+                           <div class="mt-2 me-3">
+                              <iconify-icon icon="ep:arrow-up" style="color: gray;" width="17" height="17" rotate="90deg"></iconify-icon>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card mb-2 mt-2 border-0">
+                        <div class="col-12 d-flex justify-content-between mb-1 mt-1 card_2">
+                           <div class="my-1 d-flex">
+                              <iconify-icon icon="solar:play-linear" class="ps-2" style="color: gray;" width="25" height="25"></iconify-icon>
+                              <small class="pt-1 ps-1 home">My play</small>
+                           </div>
+                           <div class="mt-2 me-3">
+                              <iconify-icon icon="ep:arrow-up" style="color: gray;" width="17" height="17" rotate="90deg"></iconify-icon>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="card mb-2 mt-2 border-0">
+                        <div class="col-12 d-flex justify-content-between mb-1 mt-1">
+                           <div class="my-1 d-flex">
+                              <iconify-icon icon="arcticons:wifi" class="ps-2" style="color: gray;" width="25" height="25"></iconify-icon>
+                              <small class="pt-1 ps-1 home">post</small>
+                           </div>
+                           <div class="mt-2 me-3">
+                              <iconify-icon icon="ep:arrow-up" style="color: gray;" width="17" height="17" rotate="90deg"></iconify-icon>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="d-lg-none d-md-none mt-2 d-flex justify-content-between">
+                     <iconify-icon icon="ic:sharp-home" class="p-3 bg-white border" style="color: red;" width="25" height="25"></iconify-icon>
+                     <iconify-icon icon="mdi:account-supervisor-outline" class="p-3 border bg-white" style="color: gray;" width="25" height="25"></iconify-icon>
+                     <iconify-icon icon="solar:play-linear" class="p-3 bg-white border" style="color: gray;" width="25" height="25"></iconify-icon>
+                     <iconify-icon icon="arcticons:wifi" class="p-3 bg-white border" style="color: gray;" width="25" height="25"></iconify-icon>
+                  </div>
+                  <div class="col-lg-10  col-12 card_2  d-lg-flex justify-content-between mt-2 mt-lg-0 ">
+                     <div class="card pb-lg-3 card_xxl border-0 me-3 pb-xxl-5">
+                        <div class="d-flex fw-semibold justify-content-between me-lg-4 ms-lg-3 mt-lg-2 ms-2 me-2 mt-2">
+                           <div >My plays</div>
+                           <div class="text-primary">View all</div>
+                        </div>
+                        <div class="d-flex flex-column flex-lg-row ms-lg-3 me-lg-3 mt-lg-2 pb-lg-4">
+                           <div class="d-flex bg p-lg-2 m-lg-0 m-2 p-2 p-lg-0 justify-content-evenly">
+                              <img src="/Asset/images/run.svg" width="35">
+                              <div class="d-flex flex-column ms-lg-2 ms-2">
+                                 <span class="h fw-bold">Morning walk with George</span>
+                                 <span class="b fw-semibold">Sun, Aug 23 6:00 am - 7:00 am</span>
+                                 <span class="f">Webb Bridge Park</span>
+                              </div>
+                              <div class="ms-2 ms-lg-0">
+                                 <img src="/Asset/images/Sun-And-Cloud-PNG-HD.png" width="25" height="20" class="ms-lg-3">
+                                 <div class="f ps-lg-3">56°F</div>
+                              </div>
+                           </div>
+                           <div class="d-flex bg p-lg-2 m-lg-0 m-2 p-2 p-lg-0 ms-lg-3 justify-content-evenly">
+                              <img src="/Asset/images/tennis.svg" width="35">
+                              <div class="d-flex flex-column ms-lg-2 ms-2">
+                                 <span class="h fw-bold">Laurel Park @ tennis center</span>
+                                 <span class="b fw-semibold">Sun, Aug 23 12:00 am - 1:00 am</span>
+                                 <span class="f">Laurel Park Tennis Center</span>
+                              </div>
+                              <div class="ms-2 ms-lg-0">
+                                 <img src="/Asset/images/sun-removebg-preview.png" width="25" height="20" class="ms-lg-3">
+                                 <div class="f ps-lg-3">70°F</div>
+                              </div>
+                           </div>
+                           <div class="d-flex bg p-lg-2 m-lg-0 m-2 p-2 p-lg-0 ms-lg-3 justify-content-evenly">
+                              <img src="/Asset/images/tennis.svg" width="35">
+                              <div class="d-flex flex-column ms-lg-2 ms-2">
+                                 <span class="h fw-bold">Laurel Park @ tennis center</span>
+                                 <span class="b fw-semibold">Sun, Aug 23 12:00 am - 1:00 am</span>
+                                 <span class="f">Laurel Park Tennis Center</span>
+                              </div>
+                              <div class="ms-2 ms-lg-0">
+                                 <img src="/Asset/images/sun-removebg-preview.png" width="25" height="20" class="ms-lg-3">
+                                 <div class="f ps-lg-3">70°F</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="me-0 me-lg-3">
+                           <div class="d-flex fw-semibold justify-content-between ms-lg-3 me-lg-3 ms-2 me-2">
+                              <p>Suggested Connections</p>
+                              <p class="text-primary ">View all</p>
+                           </div>
+                           <div class="d-lg-flex flex-lg-row flex-column justify-content-between d-none ms-3">
+                              <div class="bg card border-0">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg card border-0 ms-2">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg card border-0 ms-2">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg card border-0 ms-2">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg card border-0 ms-2">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg card border-0 ms-2">
+                                 <div class="d-flex justify-content-between">
+                                    <span><img src="/Asset/images/tennis.svg" alt="" class="p-2" width="45"></span>
+                                    <div class="mt-3 ">
+                                       <img src="/Asset/images/profile.svg" alt="" class="" width="50">
+                                    </div>
+                                    <span class="p-2 font">3 mi</span>
+                                 </div>
+                                 <div class="d-flex flex-column align-items-center mt-1">
+                                    <span class="fw-semibold font">Danny Alexender</span>
+                                    <span class="colour font mb-1">Advanced</span>
+                                    <span class="fs_1 px-3 mt-1 mb-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              
+                              <!-- <div class="bg ms-5 me-5 ms-lg-2 me-lg-0 mb-lg-0 mb-3">
+                                 <div class="d-flex justify-content-between pt-lg-2 pe-lg-2">
+                                    <img src="/Asset/images/tennisbat-removebg-preview.png" width="55">
+                                    <p class="bs_1 p-lg-1 p-3">4 mi</p>
+                                 </div>
+                                 <div class="d-flex align-items-center flex-column ps-4 pe-4 pb-3 pb-lg-0">
+                                    <img src="/Asset/images/profile.svg" width="40">
+                                    <span class="fw-bold hs_1 pt-2 pt-lg-0">Danny Alexendar</span>
+                                    <span class="fw-semibold bs_1 mt-lg-1 pt-1 pt-lg-0 colour">Advanced</span>
+                                    <span class="fs_1 ps-lg-3 ps-3 pe-3 pe-lg-3 mt-lg-1 mt-2 mt-lg-0 mb-lg-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg ms-5 me-5 ms-lg-2 me-lg-0 mb-lg-0 mb-3">
+                                 <div class="d-flex justify-content-between pt-lg-2 pe-lg-2">
+                                    <img src="/Asset/images/tennisbat-removebg-preview.png" width="55">
+                                    <p class="bs_1 p-lg-1 p-3">5 mi</p>
+                                 </div>
+                                 <div class="d-flex align-items-center flex-column ps-4 pe-4 pb-3 pb-lg-0">
+                                    <img src="/Asset/images/profile.svg" width="40">
+                                    <span class="fw-bold hs_1 pt-2 pt-lg-0">Danny Alexendar</span>
+                                    <span class="fw-semibold bs_1 mt-lg-1 pt-1 pt-lg-0 colour">Advanced</span>
+                                    <span class="fs_1 ps-lg-3 ps-3 pe-3 pe-lg-3 mt-lg-1 mt-2 mt-lg-0 mb-lg-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg ms-5 me-5 ms-lg-2 me-lg-0 mb-lg-0 mb-3">
+                                 <div class="d-flex justify-content-between pt-lg-2 pe-lg-2">
+                                    <img src="/Asset/images/tennisbat-removebg-preview.png" width="55">
+                                    <p class="bs_1 p-lg-1 p-3">5.5 mi</p>
+                                 </div>
+                                 <div class="d-flex align-items-center flex-column ps-4 pe-4 pb-3 pb-lg-0">
+                                    <img src="/Asset/images/profile.svg" width="40">
+                                    <span class="fw-bold hs_1 pt-2 pt-lg-0">Danny Alexendar</span>
+                                    <span class="fw-semibold bs_1 mt-lg-1 pt-1 pt-lg-0 colour">Advanced</span>
+                                    <span class="fs_1 ps-lg-3 ps-3 pe-3 pe-lg-3 mt-lg-1 mt-2 mt-lg-0 mb-lg-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg ms-5 me-5 ms-lg-2 me-lg-0 mb-lg-0 mb-3">
+                                 <div class="d-flex justify-content-between pt-lg-2 pe-lg-2">
+                                    <img src="/Asset/images/tennisbat-removebg-preview.png" width="55">
+                                    <p class="bs_1 p-lg-1 p-3">3 mi</p>
+                                 </div>
+                                 <div class="d-flex align-items-center flex-column ps-4 pe-4 pb-3 pb-lg-0">
+                                    <img src="/Asset/images/profile.svg" width="40">
+                                    <span class="fw-bold hs_1 pt-2 pt-lg-0">Danny Alexendar</span>
+                                    <span class="fw-semibold bs_1 mt-lg-1 pt-1 pt-lg-0 colour">Advanced</span>
+                                    <span class="fs_1 ps-lg-3 ps-3 pe-3 pe-lg-3 mt-lg-1 mt-2 mt-lg-0 mb-lg-3 text-white">Connect</span>
+                                 </div>
+                              </div>
+                              <div class="bg ms-5 me-5 ms-lg-2 me-lg-0 mb-lg-0 mb-3">
+                                 <div class="d-flex justify-content-between pt-lg-2 pe-lg-2">
+                                    <img src="/Asset/images/tennisbat-removebg-preview.png" width="55">
+                                    <p class="bs_1 p-lg-1 p-3">3 mi</p>
+                                 </div>
+                                 <div class="d-flex align-items-center flex-column ps-4 pe-4 pb-3 pb-lg-0">
+                                    <img src="/Asset/images/profile.svg" width="40">
+                                    <span class="fw-bold hs_1 pt-2 pt-lg-0">Danny Alexendar</span>
+                                    <span class="fw-semibold bs_1 mt-lg-1 pt-1 pt-lg-0 colour">Advanced</span>
+                                    <span class="fs_1 ps-lg-3 ps-3 pe-3 pe-lg-3 mt-lg-1 mt-2 mt-lg-0 mb-lg-3 text-white">Connect</span>
+                                 </div>
+                              </div> -->
+                           </div>
+                           <div id="demo" class="carousel slide  mx-3 my-3 d-lg-none" data-bs-ride="carousel">
+      
+                              <!-- Indicators/dots -->
+                              <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                              </div>
+                              
+                              <!-- The slideshow/carousel -->
+                              <div class="carousel-inner ">
+                                <div class="carousel-item active">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">3 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Danny Alexendar</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0  mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                               <div class="carousel-item">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">4 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Eddey Thomson</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0  mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">5 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Danny Alexender</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0  mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">3 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Danny Alexendar</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0 mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">3 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Danny Alexendar</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0  mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                 <div class=" text-center">
+                                    <div class="d-flex  flex-column bg">
+                                       <div class="card border d-flex">
+                                          <div class="d-flex justify-content-evenly">
+                                             <div class="mt-3"><img src="/Asset/images/tennis.svg" alt="" width="35"></div>
+                                             <div class="mt-4"><img src="/Asset/images/profile.svg" alt="" class="" width="70"></div>
+                                             <span class="pt-3">3 mi</span>
+                                          </div>
+                                          <div class="d-flex flex-column">
+                                             <span class="mt-2 mb-2 fw-bold">Danny Alexendar</span>
+                                             <span class="mb-3 colour">Advanced</span>
+                                             <div>
+                                                <button class="border-0  mb-5 fs_1 px-3 py-1 text-white">Connect</button>
+                                             </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                </div>
+                                
+                              </div>
+                              
+                              <!-- Left and right controls/icons -->
+                              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+            <div class="finish ">
+               <div class="text-white text-center pt-lg-5 pt-5 ">
+                  PlayzeOn
+               </div>
+               <div class="d-flex justify-content-center mt-2">
+                  <hr class="text-white my-1 mt-lg-2" width="27">
+               </div>
+               <div class="d-flex justify-content-center ">
+                  <hr class="text-white my-0" width="27">
+               </div>
+               <div class=" d-flex justify-content-center mt-lg-3 mt-3 black">
+                  <div class="pe-2 pe-lg-3 ">About us</div>
+                  <div class="vr mt-lg-1 me-lg-3 d-none d-lg-block"></div>
+                  <div class="pe-2 pe-lg-0 pe-lg-">Terms & Conditions</div>
+                  <div class="vr ms-lg-2 mt-lg-1 me-lg-3 d-none d-lg-block"></div>
+                  <div class="pe-2 pe-lg-0">Privacy</div>
+                  <div class="vr ms-lg-3 mt-lg-1 me-lg-3 d-none d-lg-block"></div>
+                  <div>Download App</div>
+               </div>
+               <div class="d-flex justify-content-center mt-lg-4 mt-3">
+                  <iconify-icon icon="mingcute:facebook-fill" style="color: rgb(180, 177, 177);" ></iconify-icon>
+                  <iconify-icon icon="formkit:twitter" style="color: rgb(180, 177, 177);" class="ms-lg-2 ms-2"></iconify-icon>
+                  <iconify-icon icon="uil:instagram-alt" style="color: rgb(180, 177, 177);" class="ms-lg-2 ms-2"></iconify-icon>
+                  <iconify-icon icon="mingcute:linkedin-fill" style="color: rgb(180, 177, 177);" class="ms-lg-2 ms-2"></iconify-icon>
+               </div>
+               <hr class="text-white mt-lg-5 mt-5">
+               <div class="">
+                  <p class="text-center black_1 mt-4 ">Weplayreal ⓒ  2020. All Rights Reserved. </p>
+               </div>
+            </div>
+      </div>
+   </body>
+</html>

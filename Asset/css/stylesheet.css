@@ -1,0 +1,164 @@
+.bg-first{
+    background-image: linear-gradient(rgb(24, 23, 23,0.5),rgb(24, 23, 23,0.5),rgb(24, 23, 23,0.5)),url(/Asset/images/tennisindoor-banner.jpg);
+    height: 375px;
+}
+.colour{
+    color: rgb(82,220,109);
+}
+.vr{
+    height: 15px;
+}
+.f1_size{
+    font-size:14px
+}
+.head{
+    font-size: 25px;
+}
+.profile{
+    border-radius: 50%;
+}
+.line{
+    background-color: grey; 
+    height:3px;
+}
+
+.line1{
+    background-color: red;
+    height: 3px;
+}
+.be{
+    border-right: 1px solid gray;
+}
+.under:hover{
+    border-bottom: 3px solid red;
+    position: relative;
+    top: 0px;
+}
+.bg-white{
+    color: gray;
+}
+.offcanvas{
+    width: 250px !important;
+}
+.font{
+    font-size: 13px;
+}
+.bg-second{
+    background-color:rgb(237,238,240);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 2200px)
+{
+    .bg-second{
+        background-color:rgb(237,238,240);
+        height: 420px;
+    } 
+}
+@media screen and (max-width: 992px)
+{
+    .bg-second{
+        background-color:rgb(237,238,240);
+        height: 850px;
+    } 
+}
+@media screen and (max-width: 767px)
+{
+    .bg-second{
+        background-color:rgb(237,238,240);
+        height: 720px;
+    } 
+}
+@media screen and (max-width: 328px)
+{
+    .bg-second{
+        background-color:rgb(237,238,240);
+        height: 770px;
+    } 
+}  
+.grow{
+    flex-grow: 1;
+}
+.font_size{
+    font-size: 15px;
+}
+.border{
+    border-radius: 17px;
+    background-color:rgb(237,238,240);
+}
+.bg-light{
+    height: 500px;
+}
+.card_1{
+    width: 150px;
+}
+.size{
+    width: 90%;
+}
+.fs{
+    font-size: 15px;
+}
+.back{
+    background-color: rgb(194, 193, 193);
+    border-radius: 15px;
+}
+.h{
+    font-size: 14px;
+}
+.b{
+    font-size: 12px;
+}
+.f{
+    font-size: 12px;
+    color: gray;
+}
+.home{
+    color: gray;
+}
+.bg{
+    background-color:rgb(237,238,240);
+    border-radius: 15px;
+}
+.hs_1{
+    font-size: 11px
+}
+.bs_1{
+    font-size: 11px;
+}
+.fs_1{
+    background-color: red;
+    border-radius: 12px;
+    font-size: 13px;
+}
+
+.finish{
+    background-color: rgb(39,39,39);
+    height: 275px;
+    /* position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; */
+}
+.black{
+    color: rgb(135,135,135);
+    font-size: 12px;
+}
+.black_1{
+    color: rgb(135,135,135);
+    font-size: 10px;
+}
+.dropdown{
+    font-size: 11px;
+    text-decoration: none;
+}
+.dropdown_1{
+    font-size: 11px;
+    text-decoration: none;
+    border-style: dashed;
+    color: red;
+}
+.bg_dropdown_1{
+    background-color: rgb(237,238,240);
+}
